@@ -1,0 +1,1220 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lSystem
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+ld: library not found for -lc++
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the function __infinity exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13425/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_13425.dir/build.make CMakeFiles/cmTC_13425.dir/build
+Building C object CMakeFiles/cmTC_13425.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_13425.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_13425.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_13425.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_13425
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13425.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_13425.dir/CheckFunctionExists.c.o -o cmTC_13425 
+Undefined symbols for architecture x86_64:
+  "___infinity", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_13425] Error 1
+make: *** [cmTC_13425/fast] Error 2
+
+
+
+Determining if the function __infinity exists in the m failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6771b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6771b.dir/build.make CMakeFiles/cmTC_6771b.dir/build
+Building C object CMakeFiles/cmTC_6771b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_6771b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6771b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6771b.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6771b
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6771b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=__infinity -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6771b.dir/CheckFunctionExists.c.o -o cmTC_6771b  -lm 
+Undefined symbols for architecture x86_64:
+  "___infinity", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6771b] Error 1
+make: *** [cmTC_6771b/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_755e5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_755e5.dir/build.make CMakeFiles/cmTC_755e5.dir/build
+Building C object CMakeFiles/cmTC_755e5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_755e5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_755e5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_755e5.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_755e5
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_755e5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_755e5.dir/CheckFunctionExists.c.o -o cmTC_755e5 
+Undefined symbols for architecture x86_64:
+  "_gethostbyname_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_755e5] Error 1
+make: *** [cmTC_755e5/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl_r failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_935d9/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_935d9.dir/build.make CMakeFiles/cmTC_935d9.dir/build
+Building C object CMakeFiles/cmTC_935d9.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_935d9.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_935d9.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_935d9.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_935d9
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_935d9.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_935d9.dir/CheckFunctionExists.c.o -o cmTC_935d9  -lnsl_r 
+ld: library not found for -lnsl_r
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_935d9] Error 1
+make: *** [cmTC_935d9/fast] Error 2
+
+
+
+Determining if the function gethostbyname_r exists in the nsl failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de799/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_de799.dir/build.make CMakeFiles/cmTC_de799.dir/build
+Building C object CMakeFiles/cmTC_de799.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_de799.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_de799.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_de799.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_de799
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de799.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyname_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_de799.dir/CheckFunctionExists.c.o -o cmTC_de799  -lnsl 
+ld: library not found for -lnsl
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_de799] Error 1
+make: *** [cmTC_de799/fast] Error 2
+
+
+
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c02c0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c02c0.dir/build.make CMakeFiles/cmTC_c02c0.dir/build
+Building C object CMakeFiles/cmTC_c02c0.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_c02c0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c02c0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c02c0.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c02c0
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c02c0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c02c0.dir/CheckFunctionExists.c.o -o cmTC_c02c0 
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c02c0] Error 1
+make: *** [cmTC_c02c0/fast] Error 2
+
+
+
+Determining if the function timer_create exists in the rt failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f5704/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f5704.dir/build.make CMakeFiles/cmTC_f5704.dir/build
+Building C object CMakeFiles/cmTC_f5704.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_f5704.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_f5704.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_f5704.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f5704
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5704.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_f5704.dir/CheckFunctionExists.c.o -o cmTC_f5704  -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f5704] Error 1
+make: *** [cmTC_f5704/fast] Error 2
+
+
+
+Determining if files crypt.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6b081/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6b081.dir/build.make CMakeFiles/cmTC_6b081.dir/build
+Building C object CMakeFiles/cmTC_6b081.dir/HAVE_CRYPT_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_6b081.dir/HAVE_CRYPT_H.c.o -MF CMakeFiles/cmTC_6b081.dir/HAVE_CRYPT_H.c.o.d -o CMakeFiles/cmTC_6b081.dir/HAVE_CRYPT_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_CRYPT_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_CRYPT_H.c:2:10: fatal error: 'crypt.h' file not found
+#include <crypt.h>
+         ^~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6b081.dir/HAVE_CRYPT_H.c.o] Error 1
+make: *** [cmTC_6b081/fast] Error 2
+
+
+Source:
+/* */
+#include <crypt.h>
+
+
+int main(void){return 0;}
+
+Determining if files fpu_control.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_68b8c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_68b8c.dir/build.make CMakeFiles/cmTC_68b8c.dir/build
+Building C object CMakeFiles/cmTC_68b8c.dir/HAVE_FPU_CONTROL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_68b8c.dir/HAVE_FPU_CONTROL_H.c.o -MF CMakeFiles/cmTC_68b8c.dir/HAVE_FPU_CONTROL_H.c.o.d -o CMakeFiles/cmTC_68b8c.dir/HAVE_FPU_CONTROL_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_FPU_CONTROL_H.c:2:10: fatal error: 'fpu_control.h' file not found
+#include <fpu_control.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_68b8c.dir/HAVE_FPU_CONTROL_H.c.o] Error 1
+make: *** [cmTC_68b8c/fast] Error 2
+
+
+Source:
+/* */
+#include <fpu_control.h>
+
+
+int main(void){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8be28/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8be28.dir/build.make CMakeFiles/cmTC_8be28.dir/build
+Building C object CMakeFiles/cmTC_8be28.dir/HAVE_IEEEFP_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_8be28.dir/HAVE_IEEEFP_H.c.o -MF CMakeFiles/cmTC_8be28.dir/HAVE_IEEEFP_H.c.o.d -o CMakeFiles/cmTC_8be28.dir/HAVE_IEEEFP_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_IEEEFP_H.c:2:10: fatal error: 'ieeefp.h' file not found
+#include <ieeefp.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8be28.dir/HAVE_IEEEFP_H.c.o] Error 1
+make: *** [cmTC_8be28/fast] Error 2
+
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(void){return 0;}
+
+Determining if files malloc.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e60f5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e60f5.dir/build.make CMakeFiles/cmTC_e60f5.dir/build
+Building C object CMakeFiles/cmTC_e60f5.dir/HAVE_MALLOC_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_e60f5.dir/HAVE_MALLOC_H.c.o -MF CMakeFiles/cmTC_e60f5.dir/HAVE_MALLOC_H.c.o.d -o CMakeFiles/cmTC_e60f5.dir/HAVE_MALLOC_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_MALLOC_H.c:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_e60f5.dir/HAVE_MALLOC_H.c.o] Error 1
+make: *** [cmTC_e60f5/fast] Error 2
+
+
+Source:
+/* */
+#include <malloc.h>
+
+
+int main(void){return 0;}
+
+Determining if files termio.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_50a00/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_50a00.dir/build.make CMakeFiles/cmTC_50a00.dir/build
+Building C object CMakeFiles/cmTC_50a00.dir/HAVE_TERMIO_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_50a00.dir/HAVE_TERMIO_H.c.o -MF CMakeFiles/cmTC_50a00.dir/HAVE_TERMIO_H.c.o.d -o CMakeFiles/cmTC_50a00.dir/HAVE_TERMIO_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_TERMIO_H.c:2:10: fatal error: 'termio.h' file not found
+#include <termio.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_50a00.dir/HAVE_TERMIO_H.c.o] Error 1
+make: *** [cmTC_50a00/fast] Error 2
+
+
+Source:
+/* */
+#include <termio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2fc6c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_2fc6c.dir/build.make CMakeFiles/cmTC_2fc6c.dir/build
+Building C object CMakeFiles/cmTC_2fc6c.dir/HAVE_DEVPOLL.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_2fc6c.dir/HAVE_DEVPOLL.c.o -MF CMakeFiles/cmTC_2fc6c.dir/HAVE_DEVPOLL.c.o.d -o CMakeFiles/cmTC_2fc6c.dir/HAVE_DEVPOLL.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_DEVPOLL.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_DEVPOLL.c:2:10: fatal error: 'sys/devpoll.h' file not found
+#include <sys/devpoll.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_2fc6c.dir/HAVE_DEVPOLL.c.o] Error 1
+make: *** [cmTC_2fc6c/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/epoll.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_69e54/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_69e54.dir/build.make CMakeFiles/cmTC_69e54.dir/build
+Building C object CMakeFiles/cmTC_69e54.dir/HAVE_SYS_EPOLL_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_69e54.dir/HAVE_SYS_EPOLL_H.c.o -MF CMakeFiles/cmTC_69e54.dir/HAVE_SYS_EPOLL_H.c.o.d -o CMakeFiles/cmTC_69e54.dir/HAVE_SYS_EPOLL_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EPOLL_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_SYS_EPOLL_H.c:2:10: fatal error: 'sys/epoll.h' file not found
+#include <sys/epoll.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_69e54.dir/HAVE_SYS_EPOLL_H.c.o] Error 1
+make: *** [cmTC_69e54/fast] Error 2
+
+
+Source:
+/* */
+#include <sys/epoll.h>
+
+
+int main(void){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8c503/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_8c503.dir/build.make CMakeFiles/cmTC_8c503.dir/build
+Building C object CMakeFiles/cmTC_8c503.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_8c503.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_8c503.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_8c503.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8c503
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c503.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=_aligned_malloc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_8c503.dir/CheckFunctionExists.c.o -o cmTC_8c503 
+Undefined symbols for architecture x86_64:
+  "__aligned_malloc", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_8c503] Error 1
+make: *** [cmTC_8c503/fast] Error 2
+
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0052d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0052d.dir/build.make CMakeFiles/cmTC_0052d.dir/build
+Building C object CMakeFiles/cmTC_0052d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=printstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_0052d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_0052d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_0052d.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0052d
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0052d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=printstack -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0052d.dir/CheckFunctionExists.c.o -o cmTC_0052d 
+Undefined symbols for architecture x86_64:
+  "_printstack", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0052d] Error 1
+make: *** [cmTC_0052d/fast] Error 2
+
+
+
+Determining if the function cuserid exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_82eb2/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_82eb2.dir/build.make CMakeFiles/cmTC_82eb2.dir/build
+Building C object CMakeFiles/cmTC_82eb2.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=cuserid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_82eb2.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_82eb2.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_82eb2.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82eb2
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82eb2.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=cuserid -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_82eb2.dir/CheckFunctionExists.c.o -o cmTC_82eb2 
+Undefined symbols for architecture x86_64:
+  "_cuserid", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_82eb2] Error 1
+make: *** [cmTC_82eb2/fast] Error 2
+
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a17d1/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a17d1.dir/build.make CMakeFiles/cmTC_a17d1.dir/build
+Building C object CMakeFiles/cmTC_a17d1.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=directio -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_a17d1.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a17d1.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a17d1.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a17d1
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a17d1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=directio -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a17d1.dir/CheckFunctionExists.c.o -o cmTC_a17d1 
+Undefined symbols for architecture x86_64:
+  "_directio", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a17d1] Error 1
+make: *** [cmTC_a17d1/fast] Error 2
+
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e737/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_5e737.dir/build.make CMakeFiles/cmTC_5e737.dir/build
+Building C object CMakeFiles/cmTC_5e737.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=compress -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_5e737.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_5e737.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_5e737.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5e737
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e737.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=compress -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_5e737.dir/CheckFunctionExists.c.o -o cmTC_5e737 
+Undefined symbols for architecture x86_64:
+  "_compress", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_5e737] Error 1
+make: *** [cmTC_5e737/fast] Error 2
+
+
+
+Determining if the fdatasync exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4ae56/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_4ae56.dir/build.make CMakeFiles/cmTC_4ae56.dir/build
+Building C object CMakeFiles/cmTC_4ae56.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_4ae56.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_4ae56.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_4ae56.dir/CheckSymbolExists.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: use of undeclared identifier 'fdatasync'
+  return ((int*)(&fdatasync))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_4ae56.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_4ae56/fast] Error 2
+
+
+File /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef fdatasync
+  return ((int*)(&fdatasync))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function fedisableexcept exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_26c78/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_26c78.dir/build.make CMakeFiles/cmTC_26c78.dir/build
+Building C object CMakeFiles/cmTC_26c78.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_26c78.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_26c78.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_26c78.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_26c78
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26c78.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=fedisableexcept -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_26c78.dir/CheckFunctionExists.c.o -o cmTC_26c78 
+Undefined symbols for architecture x86_64:
+  "_fedisableexcept", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_26c78] Error 1
+make: *** [cmTC_26c78/fast] Error 2
+
+
+
+Determining if the function gethostbyaddr_r exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d263b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d263b.dir/build.make CMakeFiles/cmTC_d263b.dir/build
+Building C object CMakeFiles/cmTC_d263b.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_d263b.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d263b.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d263b.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d263b
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d263b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethostbyaddr_r -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d263b.dir/CheckFunctionExists.c.o -o cmTC_d263b 
+Undefined symbols for architecture x86_64:
+  "_gethostbyaddr_r", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d263b] Error 1
+make: *** [cmTC_d263b/fast] Error 2
+
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9dc49/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_9dc49.dir/build.make CMakeFiles/cmTC_9dc49.dir/build
+Building C object CMakeFiles/cmTC_9dc49.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethrtime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_9dc49.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_9dc49.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_9dc49.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_9dc49
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dc49.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=gethrtime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_9dc49.dir/CheckFunctionExists.c.o -o cmTC_9dc49 
+Undefined symbols for architecture x86_64:
+  "_gethrtime", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_9dc49] Error 1
+make: *** [cmTC_9dc49/fast] Error 2
+
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a30f0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_a30f0.dir/build.make CMakeFiles/cmTC_a30f0.dir/build
+Building C object CMakeFiles/cmTC_a30f0.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=getpassphrase -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_a30f0.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_a30f0.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_a30f0.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a30f0
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a30f0.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=getpassphrase -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a30f0.dir/CheckFunctionExists.c.o -o cmTC_a30f0 
+Undefined symbols for architecture x86_64:
+  "_getpassphrase", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_a30f0] Error 1
+make: *** [cmTC_a30f0/fast] Error 2
+
+
+
+Determining if the function malloc_info exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a15d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_3a15d.dir/build.make CMakeFiles/cmTC_3a15d.dir/build
+Building C object CMakeFiles/cmTC_3a15d.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=malloc_info -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_3a15d.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_3a15d.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_3a15d.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3a15d
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a15d.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=malloc_info -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3a15d.dir/CheckFunctionExists.c.o -o cmTC_3a15d 
+Undefined symbols for architecture x86_64:
+  "_malloc_info", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_3a15d] Error 1
+make: *** [cmTC_3a15d/fast] Error 2
+
+
+
+Determining if the function memrchr exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6600a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6600a.dir/build.make CMakeFiles/cmTC_6600a.dir/build
+Building C object CMakeFiles/cmTC_6600a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=memrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_6600a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_6600a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_6600a.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6600a
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6600a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=memrchr -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_6600a.dir/CheckFunctionExists.c.o -o cmTC_6600a 
+Undefined symbols for architecture x86_64:
+  "_memrchr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_6600a] Error 1
+make: *** [cmTC_6600a/fast] Error 2
+
+
+
+Determining if the function mmap64 exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_693ae/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_693ae.dir/build.make CMakeFiles/cmTC_693ae.dir/build
+Building C object CMakeFiles/cmTC_693ae.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=mmap64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_693ae.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_693ae.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_693ae.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_693ae
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_693ae.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=mmap64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_693ae.dir/CheckFunctionExists.c.o -o cmTC_693ae 
+Undefined symbols for architecture x86_64:
+  "_mmap64", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_693ae] Error 1
+make: *** [cmTC_693ae/fast] Error 2
+
+
+
+Determining if the function posix_fallocate exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_576b5/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_576b5.dir/build.make CMakeFiles/cmTC_576b5.dir/build
+Building C object CMakeFiles/cmTC_576b5.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=posix_fallocate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_576b5.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_576b5.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_576b5.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_576b5
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_576b5.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=posix_fallocate -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_576b5.dir/CheckFunctionExists.c.o -o cmTC_576b5 
+Undefined symbols for architecture x86_64:
+  "_posix_fallocate", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_576b5] Error 1
+make: *** [cmTC_576b5/fast] Error 2
+
+
+
+Determining if the function pthread_condattr_setclock exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d36ea/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d36ea.dir/build.make CMakeFiles/cmTC_d36ea.dir/build
+Building C object CMakeFiles/cmTC_d36ea.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=pthread_condattr_setclock -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_d36ea.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_d36ea.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_d36ea.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d36ea
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d36ea.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=pthread_condattr_setclock -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_d36ea.dir/CheckFunctionExists.c.o -o cmTC_d36ea 
+Undefined symbols for architecture x86_64:
+  "_pthread_condattr_setclock", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_d36ea] Error 1
+make: *** [cmTC_d36ea/fast] Error 2
+
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e9725/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_e9725.dir/build.make CMakeFiles/cmTC_e9725.dir/build
+Building C object CMakeFiles/cmTC_e9725.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=setfd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_e9725.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_e9725.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_e9725.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e9725
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9725.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=setfd -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_e9725.dir/CheckFunctionExists.c.o -o cmTC_e9725 
+Undefined symbols for architecture x86_64:
+  "_setfd", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_e9725] Error 1
+make: *** [cmTC_e9725/fast] Error 2
+
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0428a/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0428a.dir/build.make CMakeFiles/cmTC_0428a.dir/build
+Building C object CMakeFiles/cmTC_0428a.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=tell -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_0428a.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_0428a.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_0428a.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0428a
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0428a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=tell -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0428a.dir/CheckFunctionExists.c.o -o cmTC_0428a 
+Undefined symbols for architecture x86_64:
+  "_tell", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0428a] Error 1
+make: *** [cmTC_0428a/fast] Error 2
+
+
+
+Determining if the function memalign exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_818bc/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_818bc.dir/build.make CMakeFiles/cmTC_818bc.dir/build
+Building C object CMakeFiles/cmTC_818bc.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_818bc.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_818bc.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_818bc.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_818bc
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_818bc.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=memalign -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_818bc.dir/CheckFunctionExists.c.o -o cmTC_818bc 
+Undefined symbols for architecture x86_64:
+  "_memalign", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_818bc] Error 1
+make: *** [cmTC_818bc/fast] Error 2
+
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ba3c6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_ba3c6.dir/build.make CMakeFiles/cmTC_ba3c6.dir/build
+Building C object CMakeFiles/cmTC_ba3c6.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=ntohll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_ba3c6.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_ba3c6.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_ba3c6.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ba3c6
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba3c6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=ntohll -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_ba3c6.dir/CheckFunctionExists.c.o -o cmTC_ba3c6 
+Undefined symbols for architecture x86_64:
+  "_ntohll", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_ba3c6] Error 1
+make: *** [cmTC_ba3c6/fast] Error 2
+
+
+
+Determining if the function epoll_create exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0e062/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0e062.dir/build.make CMakeFiles/cmTC_0e062.dir/build
+Building C object CMakeFiles/cmTC_0e062.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_0e062.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_0e062.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_0e062.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e062
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e062.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=epoll_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_0e062.dir/CheckFunctionExists.c.o -o cmTC_0e062 
+Undefined symbols for architecture x86_64:
+  "_epoll_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_0e062] Error 1
+make: *** [cmTC_0e062/fast] Error 2
+
+
+
+Determining if the SIGEV_THREAD_ID exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6a51c/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_6a51c.dir/build.make CMakeFiles/cmTC_6a51c.dir/build
+Building C object CMakeFiles/cmTC_6a51c.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_6a51c.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_6a51c.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_6a51c.dir/CheckSymbolExists.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:9:19: error: use of undeclared identifier 'SIGEV_THREAD_ID'
+  return ((int*)(&SIGEV_THREAD_ID))[argc];
+                  ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6a51c.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_6a51c/fast] Error 2
+
+
+File /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+#include <time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGEV_THREAD_ID
+  return ((int*)(&SIGEV_THREAD_ID))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the SIGEV_PORT exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d207d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_d207d.dir/build.make CMakeFiles/cmTC_d207d.dir/build
+Building C object CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:4:10: fatal error: 'sys/siginfo.h' file not found
+#include <sys/siginfo.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_d207d.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_d207d/fast] Error 2
+
+
+File /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+#include <time.h>
+#include <sys/siginfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SIGEV_PORT
+  return ((int*)(&SIGEV_PORT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function timer_create exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c6a39/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_c6a39.dir/build.make CMakeFiles/cmTC_c6a39.dir/build
+Building C object CMakeFiles/cmTC_c6a39.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_c6a39.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_c6a39.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_c6a39.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6a39
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6a39.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_create -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_c6a39.dir/CheckFunctionExists.c.o -o cmTC_c6a39 
+Undefined symbols for architecture x86_64:
+  "_timer_create", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_c6a39] Error 1
+make: *** [cmTC_c6a39/fast] Error 2
+
+
+
+Determining if the function timer_settime exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_95171/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_95171.dir/build.make CMakeFiles/cmTC_95171.dir/build
+Building C object CMakeFiles/cmTC_95171.dir/CheckFunctionExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_settime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_95171.dir/CheckFunctionExists.c.o -MF CMakeFiles/cmTC_95171.dir/CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_95171.dir/CheckFunctionExists.c.o -c /usr/local/Cellar/cmake/3.22.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95171
+/usr/local/Cellar/cmake/3.22.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95171.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc -fPIC -fno-omit-frame-pointer -fno-strict-aliasing  -DCHECK_FUNCTION_EXISTS=timer_settime -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_95171.dir/CheckFunctionExists.c.o -o cmTC_95171 
+Undefined symbols for architecture x86_64:
+  "_timer_settime", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture x86_64
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_95171] Error 1
+make: *** [cmTC_95171/fast] Error 2
+
+
+
+Determining size of ulong failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cd0a0/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_cd0a0.dir/build.make CMakeFiles/cmTC_cd0a0.dir/build
+Building C object CMakeFiles/cmTC_cd0a0.dir/SIZEOF_ULONG.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_cd0a0.dir/SIZEOF_ULONG.c.o -MF CMakeFiles/cmTC_cd0a0.dir/SIZEOF_ULONG.c.o.d -o CMakeFiles/cmTC_cd0a0.dir/SIZEOF_ULONG.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:33:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:33:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10000)%10)),
+           ^~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:34:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:34:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 1000)%10)),
+           ^~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:35:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:35:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 100)%10)),
+           ^~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:36:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:36:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' + ((SIZE / 10)%10)),
+           ^~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:37:12: error: use of undeclared identifier 'ulong'; did you mean 'long'?
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:37:12: error: reference to overloaded function could not be resolved; did you mean to call it?
+  ('0' +  (SIZE    % 10)),
+           ^~~~
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:31:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(ulong))
+                    ^~~~~~~
+10 errors generated.
+make[1]: *** [CMakeFiles/cmTC_cd0a0.dir/SIZEOF_ULONG.c.o] Error 1
+make: *** [cmTC_cd0a0/fast] Error 2
+
+
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_ULONG.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdint.h"
+#include "stdio.h"
+#include "sys/types.h"
+#include "time.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ulong))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_300ed/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_300ed.dir/build.make CMakeFiles/cmTC_300ed.dir/build
+Building C object CMakeFiles/cmTC_300ed.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_300ed.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_300ed.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_300ed.dir/CheckIncludeFile.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'netinet/in6.h' file not found
+#include <netinet/in6.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_300ed.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_300ed/fast] Error 2
+
+
+
+Performing C++ SOURCE FILE Test HAVE_IMPLICIT_DEPENDENT_NAME_TYPING failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f352b/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_f352b.dir/build.make CMakeFiles/cmTC_f352b.dir/build
+Building CXX object CMakeFiles/cmTC_f352b.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++ -DHAVE_IMPLICIT_DEPENDENT_NAME_TYPING -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_f352b.dir/src.cxx.o -MF CMakeFiles/cmTC_f352b.dir/src.cxx.o.d -o CMakeFiles/cmTC_f352b.dir/src.cxx.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/src.cxx
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/src.cxx:15:5: error: missing 'typename' prior to dependent type name 'std::vector<T>::iterator'
+    std::vector<T>::iterator itr = vec.begin();
+    ^~~~~~~~~~~~~~~~~~~~~~~~
+    typename 
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f352b.dir/src.cxx.o] Error 1
+make: *** [cmTC_f352b/fast] Error 2
+
+
+Source file was:
+
+  #include <vector>
+  template<typename T>
+  class ct2
+  {
+  public:
+    typedef T type;
+    void func();
+  };
+
+  template<typename T>
+  void ct2<T>::func()
+  {
+    std::vector<T> vec;
+    std::vector<T>::iterator itr = vec.begin();
+  }
+
+  int main(int argc, char **argv)
+  {
+    ct2<double> o2;
+    o2.func();
+    return 0;
+  }
+  
+Determining if files numa.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_96e53/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_96e53.dir/build.make CMakeFiles/cmTC_96e53.dir/build
+Building C object CMakeFiles/cmTC_96e53.dir/HAVE_NUMA_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_96e53.dir/HAVE_NUMA_H.c.o -MF CMakeFiles/cmTC_96e53.dir/HAVE_NUMA_H.c.o.d -o CMakeFiles/cmTC_96e53.dir/HAVE_NUMA_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_NUMA_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_NUMA_H.c:2:10: fatal error: 'numa.h' file not found
+#include <numa.h>
+         ^~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_96e53.dir/HAVE_NUMA_H.c.o] Error 1
+make: *** [cmTC_96e53/fast] Error 2
+
+
+Source:
+/* */
+#include <numa.h>
+
+
+int main(void){return 0;}
+
+Determining if files numaif.h exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0e5b6/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_0e5b6.dir/build.make CMakeFiles/cmTC_0e5b6.dir/build
+Building C object CMakeFiles/cmTC_0e5b6.dir/HAVE_NUMAIF_H.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_0e5b6.dir/HAVE_NUMAIF_H.c.o -MF CMakeFiles/cmTC_0e5b6.dir/HAVE_NUMAIF_H.c.o.d -o CMakeFiles/cmTC_0e5b6.dir/HAVE_NUMAIF_H.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_NUMAIF_H.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckIncludeFiles/HAVE_NUMAIF_H.c:2:10: fatal error: 'numaif.h' file not found
+#include <numaif.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_0e5b6.dir/HAVE_NUMAIF_H.c.o] Error 1
+make: *** [cmTC_0e5b6/fast] Error 2
+
+
+Source:
+/* */
+#include <numaif.h>
+
+
+int main(void){return 0;}
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_bb221/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_bb221.dir/build.make CMakeFiles/cmTC_bb221.dir/build
+Building C object CMakeFiles/cmTC_bb221.dir/SIZEOF_SOCKLEN_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_bb221.dir/SIZEOF_SOCKLEN_T.c.o -MF CMakeFiles/cmTC_bb221.dir/SIZEOF_SOCKLEN_T.c.o.d -o CMakeFiles/cmTC_bb221.dir/SIZEOF_SOCKLEN_T.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:29:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:30:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:31:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:32:12: error: use of undeclared identifier 'socklen_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:33:12: error: use of undeclared identifier 'socklen_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(socklen_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_bb221.dir/SIZEOF_SOCKLEN_T.c.o] Error 1
+make: *** [cmTC_bb221/fast] Error 2
+
+
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_25a5d/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_25a5d.dir/build.make CMakeFiles/cmTC_25a5d.dir/build
+Building C object CMakeFiles/cmTC_25a5d.dir/OFF64_T.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -DHAVE_STDDEF_H -DHAVE_STDINT_H -DHAVE_SYS_TYPES_H -D_LARGEFILE64_SOURCE=1  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_25a5d.dir/OFF64_T.c.o -MF CMakeFiles/cmTC_25a5d.dir/OFF64_T.c.o.d -o CMakeFiles/cmTC_25a5d.dir/OFF64_T.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:30:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:31:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:32:12: error: use of undeclared identifier 'off64_t'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:33:12: error: use of undeclared identifier 'off64_t'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:27:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(off64_t))
+                     ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_25a5d.dir/OFF64_T.c.o] Error 1
+make: *** [cmTC_25a5d/fast] Error 2
+
+
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the SHA512_DIGEST_LENGTH exist failed with the following output:
+Change Dir: /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_31414/fast && /Library/Developer/CommandLineTools/usr/bin/make  -f CMakeFiles/cmTC_31414.dir/build.make CMakeFiles/cmTC_31414.dir/build
+Building C object CMakeFiles/cmTC_31414.dir/CheckSymbolExists.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS  -fPIC -fno-omit-frame-pointer -fno-strict-aliasing   -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.1.sdk -mmacosx-version-min=11.6 -MD -MT CMakeFiles/cmTC_31414.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_31414.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_31414.dir/CheckSymbolExists.c.o -c /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: 'openssl/sha.h' file not found
+#include <openssl/sha.h>
+         ^~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_31414.dir/CheckSymbolExists.c.o] Error 1
+make: *** [cmTC_31414/fast] Error 2
+
+
+File /Users/feng.wang/code/db/mysql-server-5.7/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/sha.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef SHA512_DIGEST_LENGTH
+  return ((int*)(&SHA512_DIGEST_LENGTH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
