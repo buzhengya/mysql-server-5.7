@@ -419,7 +419,7 @@ int my_search_option_files(const char *conf_file, int *argc, char ***argv,
   }
   else if (! found_no_defaults)
   {
-    for (dirs= default_directories ; *dirs; dirs++)
+    for (dirs= default_directories ; *dirs; dirs++) // /etc/my.cnf /etc/mysql/my.cnf等目录
     {
       if (**dirs)
       {
@@ -675,7 +675,7 @@ int my_load_defaults(const char *conf_file, const char **groups,
     group.count++;
 
   ctx.alloc= &alloc;
-  ctx.m_args= &my_args;
+  ctx.m_args= &my_args; // 从配置文件读取参数然后保存在这里
   ctx.group= &group;
 
   if ((error= my_search_option_files(conf_file, argc, argv,
@@ -733,6 +733,7 @@ int my_load_defaults(const char *conf_file, const char **groups,
     set_args_separator(&res[my_args.size() + 1]);
   }
 
+  // 将m_args中的参数拷贝到 启动时的argc argv中
   if (*argc)
     memcpy((uchar*) (res + 1 + my_args.size() + args_sep),
            (char*) ((*argv)+1),
@@ -1057,7 +1058,9 @@ static int search_default_file_with_ext(Process_option_func opt_handler,
     if (!value)
     {
       strmake(my_stpcpy(option,"--"),ptr, (size_t) (end-ptr));
-      if (opt_handler(handler_ctx, curr_gr, option)) // 将option 放入
+      // my.cnf参数分group, 因此每读一行参数都要将其group + k-v保存到。 ptr: k-v start postion, end: k-v end position. opt_handler = handle_default_option
+      // 参数保存在 handle_option_ctx->m_args中
+      if (opt_handler(handler_ctx, curr_gr, option)) 
         goto err;
     }
     else
@@ -1431,12 +1434,12 @@ static const char **init_default_directories(MEM_ROOT *alloc)
 
 #else
 
-  errors += add_directory(alloc, "/etc/", dirs);
-  errors += add_directory(alloc, "/etc/mysql/", dirs);
+  errors += add_directory(alloc, "/etc/", dirs); // /etc/my.cnf
+  errors += add_directory(alloc, "/etc/mysql/", dirs); // etc/mysql/my.cnf
 
 #if defined(DEFAULT_SYSCONFDIR)
   if (DEFAULT_SYSCONFDIR[0])
-    errors += add_directory(alloc, DEFAULT_SYSCONFDIR, dirs);
+    errors += add_directory(alloc, DEFAULT_SYSCONFDIR, dirs); // /usr/local/mysql/etc/my.cnf
 #endif /* DEFAULT_SYSCONFDIR */
 
 #endif
@@ -1445,10 +1448,10 @@ static const char **init_default_directories(MEM_ROOT *alloc)
     errors += add_directory(alloc, env, dirs);
 
   /* Placeholder for --defaults-extra-file=<path> */
-  errors += add_directory(alloc, "", dirs);
+  errors += add_directory(alloc, "", dirs); // ./my.cnf
 
 #if !defined(_WIN32)
-  errors += add_directory(alloc, "~/", dirs);
+  errors += add_directory(alloc, "~/", dirs); // ~/my.cnf
 #endif
 
   return (errors > 0 ? NULL : dirs);

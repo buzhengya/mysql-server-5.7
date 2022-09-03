@@ -1,1 +1,10 @@
 .vscode
+CMakeCache.txt
+CMakeFiles
+.ninja_deps
+.ninja_log
+*.cmake
+build.ninja
+install_manifest.txt
+MakeFile
+find_libevent_version.c
