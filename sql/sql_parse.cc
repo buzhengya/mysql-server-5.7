@@ -968,6 +968,7 @@ bool do_command(THD *thd)
     See init_net_server_extension()
   */
   thd->m_server_idle= true;
+  // 从收到的数据包中读取 com_data 和 command
   rc= thd->get_protocol()->get_command(&com_data, &command);
   thd->m_server_idle= false;
 
@@ -1029,6 +1030,7 @@ bool do_command(THD *thd)
   if (classic)
     my_net_set_read_timeout(net, thd->variables.net_read_timeout);
 
+  // 分发 command
   return_value= dispatch_command(thd, &com_data, command);
   thd->get_protocol_classic()->get_packet()->shrink(
       thd->variables.net_buffer_length);
@@ -1246,6 +1248,7 @@ bool dispatch_command(THD *thd, const COM_DATA *com_data,
   thd->enable_slow_log= TRUE;
   thd->lex->sql_command= SQLCOM_END; /* to avoid confusing VIEW detectors */
   thd->set_time();
+  // 超过 2038年则不再执行
   if (thd->is_valid_time() == false)
   {
     /*

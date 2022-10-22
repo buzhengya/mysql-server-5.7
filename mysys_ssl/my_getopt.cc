@@ -589,7 +589,7 @@ int my_handle_options(int *argc, char ***argv,
     {
       if (command_list)
       {
-        while (* command_list)
+        while (* command_list) // 遍历 command_list 如果match
         {
           if (!strcmp(*command_list, cur_arg))
           {

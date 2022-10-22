@@ -494,7 +494,7 @@ ulong delayed_insert_errors,flush_time;
 ulong specialflag=0;
 ulong binlog_cache_use= 0, binlog_cache_disk_use= 0;
 ulong binlog_stmt_cache_use= 0, binlog_stmt_cache_disk_use= 0;
-ulong max_connections, max_connect_errors;
+ulong max_connections, max_connect_errors; // 也是全局变量的一种，但是在system_variables之外，由于都是static变量类型，因此可通过offset的方式基于 global_system_variables 获得
 ulong rpl_stop_slave_timeout= LONG_TIMEOUT;
 my_bool log_bin_use_v1_row_events= 0;
 bool thread_cache_size_specified= false;
@@ -628,7 +628,7 @@ Le_creator le_creator;
 Rpl_filter* rpl_filter;
 Rpl_filter* binlog_filter;
 
-struct system_variables global_system_variables;
+struct system_variables global_system_variables; // 全局变量的结构体
 struct system_variables max_system_variables;
 struct system_status_var global_status_var;
 

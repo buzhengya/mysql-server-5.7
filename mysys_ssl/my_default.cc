@@ -489,7 +489,7 @@ static int handle_default_option(void *in_ctx, const char *group_name,
   {
     if (!(tmp= (char *) alloc_root(ctx->alloc, strlen(option) + 1)))
       return 1;
-    if (ctx->m_args->push_back(tmp))
+    if (ctx->m_args->push_back(tmp)) // k=v 保存到 ctx->m_args中作为程序参数
       return 1;
     my_stpcpy(tmp, option);
   }

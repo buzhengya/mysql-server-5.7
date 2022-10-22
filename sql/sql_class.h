@@ -416,6 +416,8 @@ class Time_zone;
 
 typedef ulonglong sql_mode_t;
 
+// global variables
+// some set by my.cnf, ex: long_query_time.
 typedef struct system_variables
 {
   /*

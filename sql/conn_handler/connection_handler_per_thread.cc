@@ -304,6 +304,7 @@ extern "C" void *handle_connection(void *arg)
 
     thd_manager->add_thd(thd);
 
+    // login, check user and password
     if (thd_prepare_connection(thd))
       handler_manager->inc_aborted_connects();
     else
@@ -341,6 +342,7 @@ extern "C" void *handle_connection(void *arg)
     if (abort_loop) // Server is shutting down so end the pthread.
       break;
 
+    // thread 暂时不释放、等待新的连接，如果等到则线程继续运行
     channel_info= Per_thread_connection_handler::block_until_new_connection();
     if (channel_info == NULL)
       break;

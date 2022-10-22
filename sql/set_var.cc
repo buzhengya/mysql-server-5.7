@@ -60,11 +60,13 @@ int sys_var_init()
   /* Must be already initialized. */
   assert(system_charset_info != NULL);
 
+  // system_variable_hash 是一个hash函数，计算var key的hash值及进行hash碰撞判断
   if (my_hash_init(&system_variable_hash, system_charset_info, 100, 0,
                    0, (my_hash_get_key) get_sys_var_length, 0, HASH_UNIQUE,
                    PSI_INSTRUMENT_ME))
     goto error;
 
+  // 遍历 all_sys_vars 通过 system_variable_hash 判断是否有hash冲突
   if (mysql_add_sys_var_chain(all_sys_vars.first))
     goto error;
 
